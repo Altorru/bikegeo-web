@@ -1,0 +1,14 @@
+{
+  "name": "bikegeo-web",
+  "version": "1.0.0",
+  "description": "Free local bicycle cockpit comparison, FR/EN",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/geometry.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {}
+}

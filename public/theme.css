@@ -1,0 +1,11 @@
+html[data-theme=dark]{color-scheme:dark;--bg:#102729;--surface:#193538;--fg:#f2f5ec;--muted:#b8cac7;--a:#c2e58c;--b:#87d3e1;--error:#ffb9a3}
+html[data-theme=light]{color-scheme:light;--bg:#f7f6f0;--surface:#fff;--fg:#172b2d;--muted:#526564;--a:#476828;--b:#176b7d;--error:#9a382a}
+html[data-theme=dark] button img,html[data-theme=dark] .deltas img{filter:brightness(0) invert(1)}
+html[data-theme=light] button img,html[data-theme=light] .deltas img,button.primary img{filter:none}
+html[data-theme=dark] .cta,html[data-theme=dark] .primary{color:#102729}
+html[data-theme=light] .cta,html[data-theme=light] .primary{color:#fff}
+.header-actions{display:flex;gap:10px;align-items:center}header button{min-height:48px}button:focus-visible,a:focus-visible{outline:3px solid var(--b);outline-offset:4px}
+#theme{width:48px;height:48px;padding:12px;flex-shrink:0}#theme img{width:20px;height:20px}#theme span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-width:460px){header{gap:12px}header picture img,header img.brand-logo{width:145px}header #language{padding:8px 12px}.header-actions{gap:8px}}
+html[data-theme=dark] button.primary img{filter:none}html[data-theme=light] button.primary img{filter:brightness(0) invert(1)}
+@media(prefers-color-scheme:light){html:not([data-theme]) button.primary img{filter:brightness(0) invert(1)}}
