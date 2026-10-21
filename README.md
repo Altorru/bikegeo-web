@@ -1,6 +1,29 @@
 # BikeGeo Web
 
-[Démo publique / Live demo](https://bikegeo.altorru.fr/compare/) · [English demo](https://bikegeo.altorru.fr/compare/?lang=en)
+[Démo publique / Live demo](https://bikegeo.altorru.fr/compare/?from=github-readme) · [English demo](https://bikegeo.altorru.fr/compare/?lang=en&from=github-readme)
+
+## Un exemple en deux minutes / A two-minute example
+
+Données **fictives**, sans vélo constructeur ni recommandation de montage. / **Fictional** inputs, no manufacturer bike or assembly recommendation.
+
+1. Ouvrir la démo, saisir A avec les valeurs ci-dessous, puis « Utiliser A comme base de B ». / Open the demo, enter A below, then “Use A as the starting point for B”.
+2. Mettre uniquement les spacers de B à **20 mm**, puis calculer B − A. / Change only B spacers to **20 mm**, then calculate B − A.
+3. Résultat attendu : **ΔX −5,8 mm ; ΔY +19,1 mm** — le centre du cintre recule et monte. / Expected: **ΔX −5.8 mm; ΔY +19.1 mm** — the clamp centre moves back and up.
+
+| Mesure / Measurement | A |
+|---|---:|
+| Stack | 560 mm |
+| Reach | 390 mm |
+| Direction / Head angle | 73° |
+| Potence / Stem length | 100 mm |
+| Angle potence signé / Signed stem angle | −6° |
+| Spacers | 0 mm |
+| Capot / Headset cover | 10 mm |
+| Collier / Stem clamp height | 40 mm |
+
+L’exemple n’est pas prérempli et ne valide pas les limites fabricant. Les liens de démo portent seulement la provenance fixe `from=github-readme` : pas de mesure, identifiant, cookie ou nouvel outil analytique. Les logs existants peuvent compter des requêtes, pas des personnes ni des calculs terminés.
+
+The example does not prefill the form or establish manufacturer limits. Demo links carry only the fixed `from=github-readme` source: no measurements, identifier, cookie or new analytics service. Existing host logs may count requests, not people or completed comparisons.
 
 ## Français
 
